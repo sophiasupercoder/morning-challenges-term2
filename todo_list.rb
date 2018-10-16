@@ -12,6 +12,13 @@
 # To accomplish this, you should define two classes - a TodoList class
 # and a TodoListItem class.
 class TodoList
+    def create (title,description)
+        puts"what is the title of todo list?"
+        title=gets.chomp
+        puts "what is the description for this todo list?"
+        
+    end 
+
 end
 
 class TodoListItem
