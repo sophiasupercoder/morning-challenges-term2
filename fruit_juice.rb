@@ -22,6 +22,7 @@
 
 class Jug
     def initialize(capacity)
+        
     end
 
     def add(amount, type)
