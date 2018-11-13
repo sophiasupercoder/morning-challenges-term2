@@ -12,7 +12,8 @@
 
 // Instead of puts, what does JavaScript use instead?
 
-
+const coolstrings = 'coolstrings'
+let numbers = 7
 
 
 
