@@ -14,10 +14,10 @@ function largestNumber(arr) {
     for (let i = 0; i < arr.length; i++) {
 
         if (arr[i] > largest) {
-            largest = arr[i];
+            largest = arr[i]
         }
     }
-    return largest;
+    return largest
 }
 
 
