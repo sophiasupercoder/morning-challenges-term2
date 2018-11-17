@@ -7,7 +7,13 @@ mocha 03_open_door.js
 */
 
 function openDoor(input) {
-    // Your code here
+
+    if (name == 'Simon', hasCoffee == true) {
+        return true
+
+    } else {
+        return false
+    }
 
 }
 
