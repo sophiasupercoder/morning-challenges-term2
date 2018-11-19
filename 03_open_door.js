@@ -5,10 +5,19 @@ Otherwise return false.
 Test your solution:
 mocha 03_open_door.js
 */
+let name = "Simon"
+let hasCoffee = true
+
+function makeItem(name, hasCoffee) {
+    item = new Object()
+    item.name = name
+    item.hasCoffee = hasCoffee
+    return item
+}
 
 function openDoor(input) {
-
-    if (name == 'Simon', hasCoffee == true) {
+    input = [item.name, item.hasCoffee]
+    if (name == 'Simon' && hasCoffee == true) {
         return true
 
     } else {
@@ -17,12 +26,6 @@ function openDoor(input) {
 
 }
 
-function makeItem(name, hasCoffee) {
-    item = new Object()
-    item.name = name
-    item.hasCoffee = hasCoffee
-    return item
-}
 
 var assert = require('assert');
 
