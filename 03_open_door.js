@@ -5,25 +5,25 @@ Otherwise return false.
 Test your solution:
 mocha 03_open_door.js
 */
-let name = "Simon"
-let hasCoffee = true
+
+
+function openDoor(input) {
+    input = {
+        'item.name': 'Simon',
+        'item.hasCoffee' = True
+    }
+    for (var o in obj)
+        if (!obj[o]) return false;
+
+    return true;
+
+}
 
 function makeItem(name, hasCoffee) {
     item = new Object()
     item.name = name
     item.hasCoffee = hasCoffee
     return item
-}
-
-function openDoor(input) {
-    input = [item.name, item.hasCoffee]
-    if (name == 'Simon' && hasCoffee == true) {
-        return true
-
-    } else {
-        return false
-    }
-
 }
 
 
