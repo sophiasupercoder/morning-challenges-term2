@@ -8,7 +8,9 @@ If the input array is empty consider it as: [0] (array with a zero).
 */
 
 function oddOrEven(array) {
-    //enter code here
+    
+
+    
 }
 
 var assert = require('assert');
